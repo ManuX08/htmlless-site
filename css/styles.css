@@ -64,6 +64,10 @@ h1 > span {
 	top: 0;
 }
 
+.selected {
+	border-bottom: 2px solid #0070c9;
+}
+
 .container {
 	position: relative;
 }
@@ -113,7 +117,7 @@ h1 > span {
 	width: 172px;
 	padding: 32px;
 	border-right: 1px solid #eeeeee;
-	z-index: -1;
+	z-index: 1;
 }
 
 .lista-2 {
@@ -136,4 +140,36 @@ h1 > span {
 
 .lista-2 li:first-child {
 	border-bottom: 1px solid #eeeeee;
+}
+
+.lista-2 a {
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+.lista-2 a:visited {
+	color: #000;
+}
+
+.lista-2 a:hover {
+	border-bottom: 1px solid #a0a0a0;
+	font-size: 18px;
+}
+
+#mail-image {
+	margin-bottom: 24px;
+	margin-top: 24px;
+	margin-right: 180px;
+	margin-left: 180px;
+}
+
+.mail {
+	text-decoration: none;
+	color: #0070c9;
+}
+
+.mail:visited {
+	color: #0070c9;
 }
